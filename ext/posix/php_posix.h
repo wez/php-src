@@ -1,4 +1,4 @@
-/* 
+/*
    +----------------------------------------------------------------------+
    | PHP Version 5                                                        |
    +----------------------------------------------------------------------+
@@ -116,6 +116,7 @@ PHP_FUNCTION(posix_initgroups);
 
 PHP_FUNCTION(posix_get_last_error);
 PHP_FUNCTION(posix_strerror);
+PHP_FUNCTION(posix_dup2);
 
 ZEND_BEGIN_MODULE_GLOBALS(posix)
 	int last_error;
